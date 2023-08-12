@@ -109,7 +109,7 @@
         display: block;
     }
     .profile_image img{
-        width: 245px;
+        width: 285px;
     }
     .banner h4{
         margin-top: 30px;
@@ -122,7 +122,7 @@
         margin-bottom: 48px;
     }
     .profile_image img {
-        background: #757575cf;
+        /* background: #757575cf; */
     }
 }
 /* End Banner */
@@ -236,6 +236,9 @@
     .protfolio img{
         width: 75%;
     }
+    .footer_footer .right{
+        margin-top: -20px !important;
+    }
 }
 /* End Protfolio Section  */
 
@@ -248,7 +251,7 @@ footer{
     color: #ddd;
     padding-top: 40px;
     margin-bottom: 0;
-    padding-bottom: 5px;
+    padding-bottom: 10px;
 } 
 footer .nav_icon a i{
     color: #fff;
