@@ -1,0 +1,293 @@
+/* //__Navbar__ // */
+
+.navbar .navbar-nav{
+    margin-left: auto;
+}
+.navbar .navbar-nav .nav-item{
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.navbar .navbar-nav .nav-link{
+    color: #f7f7f7;
+}
+.navbar .navbar-nav .nav-link:hover{
+    color: #ff4b6f;
+}
+.navbar .navbar-nav .nav-link.active{
+    color: #ff4b6f ;
+}
+.navbar .navbar-brand{
+    color: #ff4b6f;
+    font-weight: 700;
+    font-size: 30px;
+}
+.navbar .navbar-brand:hover{
+    color: #ff4b6f;
+}
+
+.navbar_banner {
+    /* Set the background image URL */
+    background: rgba(31, 31, 31, 0.6) url('../image/Banner_bg.jpg');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-color: #142233;
+    opacity: 1.5;
+    position: relative;
+    
+}
+.nav_banner{
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    background: rgba(0, 0, 0, 0.555);
+}
+.navbar .nav_icon a i{
+    color: #fff;
+    font-size: 25px;
+    padding: 5px;
+}
+.navbar .nav_icon a i:hover{
+    color: #ff4b6f;
+}
+.navbar-toggler{
+    background-color: #fff !important;
+    color: #fff;
+}
+/* End Navbar  */
+
+/* Start Banner */
+.banner h4{
+    color: #FF4B6F;
+    font-size: 1.47058823529rem;
+    margin-top: 150px;
+}
+.banner h1{
+    color: #fff;
+    font-family: 'Philosopher',sans-serif;
+    text-transform: uppercase;
+    margin-top: 30px;
+    font-size: 3.23529411765rem;
+}
+.banner h6{
+    color: #D7D7D7;
+    margin-top: 20px;   
+    margin-bottom: 60px;
+}
+.banner a{
+    background: #FF4B6F;
+    text-decoration: none;
+    color: #fff;
+    padding: 15px;
+    border-radius: 5px;
+    margin-right: 20px;
+    margin-top: 30px;
+}
+.banner a:hover{
+    background: #fd4c93;
+}
+.profile_image img{
+    margin-top: 30px;
+    /* background: #7575757e; */
+}
+.banner_mobile{
+    display: none;
+}
+.banner_laptop{
+    display: block;
+}
+
+/* Responsive Banner  */
+@media (max-width:768px) {
+    .banner_laptop{
+        display: none;
+    }
+    .banner_mobile{
+        display: block;
+    }
+    .profile_image img{
+        width: 245px;
+    }
+    .banner h4{
+        margin-top: 30px;
+    }
+    .banner h1{
+        margin-top: 0;
+        font-size: 37px;
+    }
+    .banner h6{
+        margin-bottom: 48px;
+    }
+    .profile_image img {
+        background: #757575cf;
+    }
+}
+/* End Banner */
+
+/* Start Welcome Section  */
+.welcome{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.welcome img{
+    max-height: 500px;
+}
+.welcome a{
+    background: #FF4B6F;
+    text-decoration: none;
+    color: #fff;
+    padding: 15px;
+    border-radius: 5px;
+    margin-right: 20px;
+    margin-top: 30px;
+}
+.welcome a:hover{
+    background: #fd4c93;
+}
+.welcome h5{
+    margin-top: 130px;
+}
+.welcome h2{
+    color: #FF4B6F;
+    margin-top: 40px;
+    font-family: 'Philosopher',sans-serif;
+}
+.welcome h6{
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+/* Responsive Welcome  */
+@media (max-width:768px) {
+    .welcome h5{
+        margin-top: 30px;
+    }
+    .welcome h2{
+        color: #FF4B6F;
+        margin-top: 20px;
+        font-family: 'Philosopher',sans-serif;
+    }
+    .welcome h6{
+        margin-top: 30px;
+        margin-bottom: 50px;
+    }
+}
+/* End Welcome Section  */
+
+/* Start Service Section  */
+.title{
+    color: #FF4B6F;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.service{
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+.service .item{
+    text-align: center;
+    box-shadow: 0px 0px 20px 5px #ddd;
+    padding: 25px;
+    padding-top: 30px;
+    margin-bottom: 15px;
+}
+.service .item img{
+    width: 180px;
+    height: 150px;
+    text-align: center;
+}
+/* End Service Section  */
+
+
+
+
+
+/* Start Protfolio Section  */
+.protfolio{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+.protfolio .col-md-3{
+    width: 25%;
+    text-align: center;
+}
+.protfolio img{
+    height: 500px;
+    width: 100%;
+    overflow: hidden;
+    border: 2px solid #FF4B6F;
+    margin-top: 30px;
+    margin-bottom: 5px;
+}
+.protfolio h4{
+    background: #FF4B6F;
+    color: #fff;
+    padding: 10px;
+}
+
+@media (max-width:768px){
+    .protfolio .col-md-3{
+        width: 100%;
+    }
+    .protfolio img{
+        width: 75%;
+    }
+}
+/* End Protfolio Section  */
+
+
+
+
+/* Start Footer Section */
+footer{
+    background: #142233;
+    color: #ddd;
+    padding-top: 40px;
+    margin-bottom: 0;
+    padding-bottom: 5px;
+} 
+footer .nav_icon a i{
+    color: #fff;
+    font-size: 25px;
+    padding: 5px;
+}
+footer .nav_icon a i:hover{
+    color: #ff4b6f;
+}
+footer h3{
+    color: #FF4B6F;
+}
+footer h4{
+    color: #FF4B6F;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+footer a{
+    text-decoration: none;
+    color: #ddd;
+}
+footer a:hover{
+    color: #ff4b6f;
+}
+footer ul{
+    padding: 0;
+}
+footer ul li{
+    list-style: none;
+}
+.footer_footer .right{
+    float: right;
+    margin-top: -37px;
+}
+.footer_footer .right a{
+    color: #ff4b6f;
+}
+.footer_footer .right a:hover{
+    color: #ddd;
+}
+
+/* End Footer Section */
